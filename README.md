@@ -17,6 +17,14 @@ conda create -p venv python==3.7 -y
 conda activate venv/
 ```
 
+To develop CI/CD pipeline, we need 3 info
+
+```
+1. heroku mail id = nkprithivi@gmail.com
+2. heroku api key =  5fe2fdc2-8cc3-4ee6-aa7e-35a52e87e2c3
+3. heroku app name = mlprojectnew1
+```
+
 ```
 pip install - r requirements.txt
 ```

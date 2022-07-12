@@ -65,7 +65,7 @@ To develop CI/CD pipeline, we need 3 info
 
 ```
 1. heroku mail id = nkprithivi@gmail.com
-2. heroku api key =  5fe2fdc2-8cc3-4ee6-aa7e-35a52e87e2c3
+2. heroku api key =  
 3. heroku app name = mlprojectnew1
 ```
 

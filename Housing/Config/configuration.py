@@ -7,8 +7,11 @@ from Housing.Constant import *
 
 class housingConfig:
 
-    def __int__(self):
-        pass
+    def __int__(self, config_file_path: CONFIG_FILE_PATH,current_time_stamp : CURRENT_TIME_STAMP ):
+        self.config_info = get_yaml_file(config_file_path)
+        self.training_pipeline_config = self.get_training_pipeline_config()
+        self.time_stamp = current_time_stamp
+
 
     def get_data_ingestion_config(self):
         pass

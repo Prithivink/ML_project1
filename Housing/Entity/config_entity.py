@@ -2,16 +2,16 @@ from collections import namedtuple
 
 
 #contains all the information where the data is located
-dataingestionconfig = namedtuple("dataingestionconfig",
-["download_URL",
-"zip_data_dir",
+data_ingestion_config = namedtuple("data_ingestion_config",
+["dataset_download_url",
 "raw_data_dir",
-"train_data_folder",
+"tgz_download_dir",
+"ingested_train_dir",
 "test_data_folder"])
 
 
 #contains all the information where the scheme of data(no of row and columns, datatypes etc..) is located
-datavalidationconfig = namedtuple("datavalidationconfig","SchemeFilepath")
+data_validation_config = namedtuple("data_validation_config","SchemeFilepath")
 
 
 #contains all the information where the data with respect to transformed data(pickle files etc..) are loacated
